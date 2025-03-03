@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\icons8-floppy-64.png" />
+    <None Remove="Images\icons8-воспроизведение-48.png" />
+    <None Remove="Images\icons8-вставка-50.png" />
+    <None Remove="Images\icons8-вырезать-50.png" />
+    <None Remove="Images\icons8-налево-50.png" />
+    <None Remove="Images\icons8-направо-50.png" />
+    <None Remove="Images\icons8-папка-50.png" />
+    <None Remove="Images\icons8-скопировать-50.png" />
+    <None Remove="Images\icons8-файл-50.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icons8-floppy-64.png" />
+    <Resource Include="Images\icons8-воспроизведение-48.png" />
+    <Resource Include="Images\icons8-вставка-50.png" />
+    <Resource Include="Images\icons8-вырезать-50.png" />
+    <Resource Include="Images\icons8-налево-50.png" />
+    <Resource Include="Images\icons8-направо-50.png" />
+    <Resource Include="Images\icons8-папка-50.png" />
+    <Resource Include="Images\icons8-скопировать-50.png" />
+    <Resource Include="Images\icons8-файл-50.png" />
+  </ItemGroup>
+
+</Project>
